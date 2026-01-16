@@ -45,7 +45,7 @@
 - 上传的图片储存到本地
 
 
-## 系统构架图：
+## 系统架构图：
 ![4921768497458_ pic](https://github.com/user-attachments/assets/30a5b789-fe48-4ff3-a597-92905be23dae)
 
 
