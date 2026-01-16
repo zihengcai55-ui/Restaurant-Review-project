@@ -6,7 +6,7 @@
 
 -系统用Keycloak发放JWT然后通过Spring security实现无状态鉴权，实现了用户访问限制以及点评限制。
 
--数据通过ElastiSearch储存数据与索引，支持模糊字搜索，评分过滤以及地理位置搜索。
+-数据通过ElastiSearch储存与索引，支持模糊字搜索，评分过滤以及地理位置搜索。
 
 
 
@@ -27,6 +27,20 @@
 -仅允许48小时内编辑评论
 
 -限制发送多条评论
+
+系统特性：
+
+-Keycloak和JWT提供用户验证功能
+
+-JWT通过SpringSecurity鉴权
+
+-ElasticSearch储存数据和索引
+
+—Kibana提供了可视化
+
+-使用了docker来启动KeyCloak，ElasticSearch， Kibana
+
+-上传的图片储存到本地
 
 
 ![4921768497458_ pic](https://github.com/user-attachments/assets/30a5b789-fe48-4ff3-a597-92905be23dae)
