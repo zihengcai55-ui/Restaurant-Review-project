@@ -71,3 +71,9 @@
 - services(处理业务逻辑)
 
 - exceptions(自定义异常)
+
+
+## 项目亮点
+- 使用KeyCloak登陆，退出，注册账号然后使用SpringSecurity相结合进行Token的验证(避免了手动实现登陆逻辑)
+- Lombok和MapStruct相结合，使用了Lombok减少entity以及dto的样板代码，使用MapStruct来进行entity和dto之前的映射提供代码的可读性以及可维护性
+- 上传的图片会储存到本地
