@@ -46,7 +46,7 @@
 
 
 ## 系统架构图：
-![4921768497458_ pic](https://github.com/user-attachments/assets/30a5b789-fe48-4ff3-a597-92905be23dae)
+![4931768582730_ pic](https://github.com/user-attachments/assets/98ea4d97-67d8-4347-8a48-7caead0604f0)
 
 
 ## 技术栈
