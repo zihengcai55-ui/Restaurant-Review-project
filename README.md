@@ -58,16 +58,16 @@
 - Docker(启动服务)
 
 ## 项目结构
-- config
+- config(Security + keyCloak)
 
-- controllers
+- controllers(请求入口)
 
 - domains(entities, dtos)
 
-- mappers
+- mappers(dtos <=> entities)
   
-- repository
+- repository(ElasticSearch repository)
 
-- services(serviceImpl)
+- services(处理业务逻辑)
 
-- exceptions
+- exceptions(自定义异常)
