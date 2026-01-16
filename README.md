@@ -1,12 +1,12 @@
 ## 项目简介：
 
-- 这是一个SpringBoot后端餐厅评价项目，支持用户上传图片，搜索餐厅，提交评论。
+- 这是一个SpringBoot后端餐厅评价项目，支持用户上传图片，搜索餐厅，提交评论
 
-- 这个项目用到了keycloak，ElasticSearch，kibana。
+- 这个项目用到了keycloak，ElasticSearch，kibana
 
-- 系统用Keycloak发放JWT然后通过Spring security实现无状态鉴权，实现了用户访问限制以及点评限制。
+- 系统用Keycloak发放JWT然后通过Spring security实现无状态鉴权，实现了用户访问限制以及点评限制
 
-- 数据通过ElastiSearch储存与索引，支持模糊字搜索，评分过滤以及地理位置搜索。
+- 数据通过ElastiSearch储存与索引，支持模糊字搜索，评分过滤以及地理位置搜索
 
 
 
@@ -76,4 +76,10 @@
 ## 项目亮点
 - 使用KeyCloak登陆，退出，注册账号然后使用SpringSecurity相结合进行Token的验证(避免了手动实现登陆逻辑)
 - Lombok和MapStruct相结合，使用了Lombok减少entity以及dto的样板代码，使用MapStruct来进行entity和dto之前的映射提供代码的可读性以及可维护性
-- 上传的图片会储存到本地
+- 使用了ElasticSearch替代了传统的关系型数据库对餐厅以及评论数据进行了储存，提供了模糊关键字搜索，Geo搜索，评分过滤的功能
+- 对展示的餐厅进行了分页避免了一次加载大量数据
+- 创建了自定义异常并通过ErrorController去进行全局异常处理同一封装业务与Http响应
+- 实现了图片的上传，上传的图片会储存到本地
+- 使用SpringSecurity对非登陆用户进行限制，限制未登陆的用户无法进行评论
+- 在service增添逻辑让用户只能对同一家餐馆评论一条并且只能在评论后48小时内进行编辑，超过时间或者已经评论过再次评论的话就会抛出自定义的异常
+- 使用了SpringbootTest进行测试，验证了核心业务流程的正常运行
