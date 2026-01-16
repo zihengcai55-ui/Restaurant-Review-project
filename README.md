@@ -47,3 +47,13 @@
 
 ## 系统构架图：
 ![4921768497458_ pic](https://github.com/user-attachments/assets/30a5b789-fe48-4ff3-a597-92905be23dae)
+
+
+## 技术栈
+- java21
+- SpringBoot
+- ElasticSearch(搜索 + 储存)
+- Kibana(可视化工具)
+- KeyCloak(提供认证)
+- Docker(启动服务)
+
