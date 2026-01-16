@@ -62,15 +62,12 @@
 
 - controllers
 
-- domains
-—— entites
-—— dtos
+- domains(entities, dtos)
 
 - mappers
   
 - repository
 
-- services
-—— serviceImpl
+- services(serviceImpl)
 
 - exceptions
