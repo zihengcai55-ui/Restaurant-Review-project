@@ -89,7 +89,8 @@
 1. 启动依赖服务
 
 项目根目录执行：docker-compose up
+
 启动服务：
-        - KeyCloak 9090
-        - ElastciSearc h9200
-        - Kibana 5601
+- KeyCloak 9090
+- ElastciSearc h9200
+- Kibana 5601
