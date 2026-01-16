@@ -38,7 +38,7 @@
 
 - ElasticSearch储存数据和索引
 
-— Kibana提供了可视化
+- Kibana提供了可视化
 
 - 使用了docker来启动KeyCloak，ElasticSearch， Kibana
 
