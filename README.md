@@ -94,3 +94,5 @@
 - KeyCloak 9090
 - ElastciSearc h9200
 - Kibana 5601
+
+2.运行项目
