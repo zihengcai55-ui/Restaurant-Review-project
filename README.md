@@ -58,6 +58,11 @@
 - Docker(启动服务)
 
 ## 项目结构
-|__config
-|
-|
+- config
+
+- controllers
+
+- domains
+ 
+- entites
+- dtos
